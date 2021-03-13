@@ -1,5 +1,7 @@
 .row{
-  margin-left: 20px;
+  color:white;
+  margin-left: 17px;
+
 }
 .row__posters {
   display: flex;

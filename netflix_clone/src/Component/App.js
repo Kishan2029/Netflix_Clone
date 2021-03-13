@@ -1,11 +1,12 @@
-import "./CssFiles/App.css";
-import Row from "./Component/Row.js";
-import requests from "./requests";
-
+import "../CssFiles/App.css";
+import Row from "./Row";
+import requests from "../requests";
+import Banner from "./Banner.js"
 function App() {
   return (
-    <div className="App">
+    <div className="app">
 
+      <Banner/>
       <Row title="NETFLIX ORIGINALS"
       fetchUrl={requests.fetchNetflixOriginals}
       isLargeRow
