@@ -38,7 +38,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       setTrailerUrl('');
     }else{
    
-      movieTrailer(movie?.name || "")
+      movieTrailer(movie?.name || "Hulk")
       .then((url) =>{
         console.log(movie.name);
         console.log(url);
