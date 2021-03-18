@@ -35,6 +35,8 @@
     z-index: 1;
     color:#fff ;
     padding:20px;
+    left:0;
+    right:0;
 }
 
 .loginScreen__gradient{
